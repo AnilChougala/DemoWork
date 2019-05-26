@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  font-size: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family:'Myriad Pro Regular'
+}
+main {
+	width: 100%;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+	color: afa5a3;
+}
+header {
+	background: #171513;
+}
+.header-main {
+	width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.header-main .logo {
+	display: flex;
+    height: 70px;
+    float: left;
+    align-items: center;
+	margin: 0 0 0 90px;
+}
+.header-main .menus {
+	display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+}
+.header-main .menus ul {
+	display: flex;
+}
+.header-main .menus ul li {
+	margin: 10px 24px;
+	letter-spacing: 1.2px;
+}
+.header-main .menus ul li.active{
+	color: #ffffff;
+}
+.header-main .menus .get-in-touch a {
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+    padding: 7px 38px;
+    background: red;
+    border-radius: 15px;
+	margin: 0 80px 0 8px;
+}
+.header-main .menus .get-in-touch a:after{
+	content: "";
+    width: 16px;
+    height: 16px;
+    background: url("images/touch_in_Icon.png") no-repeat;
+    top: 10px;
+    left: 18px;
+    position: absolute;
+}
+.landing-banner {
+	position: relative;
+}
+.landing-banner .banner-img{
+	width: 100%;
+}
+.landing-banner .hero-banner {
+	position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    left: 50%;
+	text-align: center;
+}
+.landing-banner .hero-banner .hero-title {
+	font-size: 38px;
+    letter-spacing: 1.2px;
+    word-spacing: 2px;
+	margin: 0 auto 38px;
+	width: 500px;
+}
+.landing-banner .hero-banner .service-name {
+	letter-spacing: 1.2px;
+	margin: 15px 0 0;
+}
+.landing-banner .hero-banner .service-banner-section {
+	margin: 0 10px;
+	padding: 40px 39px 45px;
+    border: 0.5px solid #47433f;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.landing-banner .hero-banner .banner-service {
+	display: flex;
+	justify-content: center;
+}
+
+
